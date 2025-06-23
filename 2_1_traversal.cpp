@@ -1,7 +1,10 @@
+// construct and pre/in/post order traversal 
+
 #include <iostream>
 #include <string>
 #include <vector>
 
+//####################################################################################################
 // Define the structure for a binary tree node
 struct TreeNode {
     char data;
@@ -33,6 +36,7 @@ TreeNode* buildTree(const std::string& preOrder) {
 
     return newNode;
 }
+//####################################################################################################
 
 // Function for In-order Traversal (Left -> Root -> Right)
 void inOrderTraversal(TreeNode* root) {
